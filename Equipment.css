@@ -1,0 +1,196 @@
+@media only screen and (max-width:500px) {
+    nav{
+        max-width: 450px;
+        padding: 20px;
+    }
+    nav .text{
+        display: none;
+    }
+    body .burger{
+        display: block;
+    }
+    main{
+        max-width: 500px;
+        flex-wrap: wrap;
+    }
+    .main_image img{
+        max-width: 470px;
+        margin:auto;
+    }
+    .main_text{
+        max-width: 470px;
+        margin:auto;
+    }
+    .company{
+        max-width: 500px;
+        flex-wrap: wrap;
+    }
+    .company_text{
+        max-width: 470px;
+        margin:auto;
+        padding-bottom: 20px;
+    }
+    .company img{
+        max-width: 470px;
+        margin:auto;
+    }
+    .this_product{
+        font-size: 25px;
+    }
+    .also_buy{
+        max-width: 500px;
+        flex-wrap: wrap;
+    }
+    .also_buy_block{
+        max-width: 470px;
+        display: inline;
+    }
+    .questions{
+        max-width: 500px;
+        flex-wrap: wrap;
+    }
+    .questions_text{
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    footer{
+        max-width: 500px;
+        flex-wrap: wrap;
+    }
+    footer div{
+        margin: auto;
+    }
+
+    .footer_block{
+        margin-left: 0px;
+        margin: auto;
+    }
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+}
+.logo h1{
+    color: green;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.logo span{
+    color:black;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 80%;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+}
+.text ul{
+    font-size: 17px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+ul li:hover{
+    color: #147E45;
+}
+nav select{
+    background-color: green;
+    color: white;
+    width: 70px; height: 30px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 100;
+    padding-left: 10px;
+    margin-left: 20px;
+    outline: none;
+}
+.burger{
+    display: none;
+}
+main{
+    width: 1100px;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.main_text{
+    width: 500px;
+}
+.main_text button{
+    padding: 18px;
+    width: 200px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+}
+.company{
+    width: 1100px;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.company_text{
+    width: 500px;
+}
+.company_text button{
+    padding: 18px;
+    width: 200px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+}
+.also_buy{
+    width: 1100px;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.also_buy_block{
+    width: 500px;
+    display: flex;
+}
+.also_buy_block button{
+    padding: 18px;
+    width: 200px;
+    color: green;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+.questions{
+    width: 800px;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.questions button{
+    padding: 18px;
+    width: 200px; height: 50px;
+    margin: auto;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+}
+footer{
+    width: 1100px;
+    margin: auto;
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_block{
+    margin-left: 200px
+}
